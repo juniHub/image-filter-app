@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre&display=swap");
+
+body,
+html {
+	background: #fef6e4;
+	font-family: "Gemunu Libre", sans-serif;
+	display: flex;
+	flex-direction: column;
+
+}
+
+canvas {
+
+	margin: auto;
+	background: #f582ae;
+	width: 60%;
+	height: 60%;
+	display: block;
+
+
+}
+
+.effect {
+	width: 140px;
+}
+.btn-disabled {
+	width: 100px;
+}
+
+button:active {
+	background: #f582ae !important;
+}
+
+button:focus {
+	background: #f582ae !important;
+}
